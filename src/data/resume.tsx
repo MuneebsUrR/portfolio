@@ -405,7 +405,7 @@ export const DATA = {
     
 
   ],
-  hackathons: [
+  certificates: [
     {
       title: "Advanced React",
       dates: "",
