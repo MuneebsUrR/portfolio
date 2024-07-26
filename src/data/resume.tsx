@@ -157,7 +157,7 @@ export const DATA = {
       dates: "May 2024 - current",
       active: true,
       description:
-        "Developing a comprehensive website for the FAST NUCES Islamabad campus, enhancing online presence and accessibility. The website features a responsive design, detailed information about academic programs, faculty, and facilities, as well as an events calendar, news section e.t.c",
+        "Developing a comprehensive website for the [FAST National University Islamabad](https://www.nu.edu.pk/), enhancing online presence and accessibility. The website features a responsive design, detailed information about academic programs, faculty, and facilities, as well as an events calendar, news section e.t.c",
       technologies: [
         "Next.js",
         "Typescript",
@@ -184,7 +184,7 @@ export const DATA = {
       dates: "May 2024 - current",
       active: true,
       description:
-        "Working on a test executor application for the FAST NUCES Islamabad campus, specifically for MCQs-based admission tests. This application automates the evaluation of multiple-choice questions during university admissions, ensuring efficient and accurate grading. Additionally, it features face detection to verify the identity of test-takers, enhancing the security and integrity of the examination process.",
+        "Working on a test executor application for the  [FAST National University Islamabad](https://www.nu.edu.pk/), specifically for MCQs-based admission tests. This application automates the evaluation of multiple-choice questions during university admissions, ensuring efficient and accurate grading. Additionally, it features face detection to verify the identity of test-takers, enhancing the security and integrity of the examination process.",
       technologies: [
         "React js",
         "Node js",
