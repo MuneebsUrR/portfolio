@@ -36,6 +36,7 @@ export const DATA = {
     "TailwindCSS",
     "Bootstrap",
     ".Net",
+    "Laravel",
     "C/C++",
   ],
   navbar: [
