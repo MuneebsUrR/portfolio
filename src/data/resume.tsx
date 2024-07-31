@@ -209,7 +209,7 @@ export const DATA = {
 
     {
       title: "Pak Level",
-      href: "https://paklevel-dev.vercel.app/",
+      href: "https://www.paklevel.com/",
       dates: "Dec 2023 - current",
       active: true,
       description:
@@ -228,7 +228,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://paklevel-dev.vercel.app/",
+          href: "https://www.paklevel.com/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
