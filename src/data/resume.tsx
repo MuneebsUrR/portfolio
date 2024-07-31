@@ -43,7 +43,7 @@ export const DATA = {
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
     { href: "#", icon: CodeIcon, label: "Projects" },
-    { href: "#", icon: PencilLine, label: "Notes" },
+    { href: "#", icon: PencilLine, label: "work" },
   ],
   contact: {
     email: "muneebsurrehman@gmail.com",
@@ -68,7 +68,7 @@ export const DATA = {
         url: "#",
         icon: Icons.x,
 
-        navbar: true,
+        navbar: false,
       },
 
       email: {
