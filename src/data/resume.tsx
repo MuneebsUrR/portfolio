@@ -87,12 +87,12 @@ export const DATA = {
       href: "http://isb.nu.edu.pk/",
       badges: [],
       location: "On site",
-      title: "Software Developer",
+      title: "DevOps Engineer",
       logoUrl: "/fast.png",
       start: "May 2024",
       end: "September 2024",
       description:
-        "Worked on two projects as a Full Stack Developer: created a test execution application that processed over 5000 admission tests every year, and built a website for FAST National University, Islamabad, which saw a 30% increase in user engagement.",
+        "Worked on two projects 1) a test execution application that processed over 5000 admission tests every year. 2)  Website for FAST National University, Islamabad",
     },
     {
       company: "Pak Level",
