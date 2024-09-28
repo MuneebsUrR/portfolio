@@ -8,7 +8,7 @@ export const DATA = {
   location: "Islamabad, PK",
   locationLink: "https://www.google.com/maps/place/Islamabad,+Islamabad+Capital+Territory,+Pakistan/@33.6162509,72.7564296,10z/data=!3m1!4b1!4m6!3m5!1s0x38dfbfd07891722f:0x6059515c3bdb02b6!8m2!3d33.6995086!4d73.0362897!16zL20vMGRoZDU?entry=ttu",
   description:
-    "Software Engineer and Full Stack Developer. I love building things and helping people.",
+    "Software Developer | DevOps Engineer. I love building things and helping people.",
   summary:
     "I am a final-year student at [FAST National University](https://www.nu.edu.pk/) with two years of experience in building Apps and Websites. Currently, I am also expanding my skills by learning AI and machine learning. My academic journey has equipped me with a strong foundation in both frontend and backend development, and I am excited to apply my skills to real-world projects and contribute to the tech community.",
   avatarUrl: "/pic8.jpg",
@@ -92,7 +92,7 @@ export const DATA = {
       start: "May 2024",
       end: "September 2024",
       description:
-        "Worked on two projects 1) a test execution application that processed over 5000 admission tests every year. 2)  Website for FAST National University, Islamabad",
+        "Working on two projects 1) a test execution application that processed over 5000 admission tests every year. 2)  Website for FAST National University, Islamabad",
     },
     {
       company: "Pak Level",
