@@ -4,14 +4,14 @@ import { CodeIcon, HomeIcon, Icon, NotebookIcon, PencilLine } from "lucide-react
 export const DATA = {
   name: "Muneeb",
   initials: "MUR",
-  url: "https://myportfolio-git-main-muneebsurrs-projects.vercel.app/",
+  url: "https://portfolio-brown-six-15.vercel.app/",
   location: "Islamabad, PK",
   locationLink: "https://www.google.com/maps/place/Islamabad,+Islamabad+Capital+Territory,+Pakistan/@33.6162509,72.7564296,10z/data=!3m1!4b1!4m6!3m5!1s0x38dfbfd07891722f:0x6059515c3bdb02b6!8m2!3d33.6995086!4d73.0362897!16zL20vMGRoZDU?entry=ttu",
   description:
     "Software Developer | DevOps Engineer. I love building things and helping people.",
   summary:
     "I am a final-year student at [FAST National University](https://www.nu.edu.pk/) with two years of experience in building Apps and Websites. Currently, I am also expanding my skills by learning AI and machine learning. My academic journey has equipped me with a strong foundation in both frontend and backend development, and I am excited to apply my skills to real-world projects and contribute to the tech community.",
-  avatarUrl: "/pic3.jpg",
+  avatarUrl: "/mainpic.jpeg",
   skills: [
     "React",
     "React Native",
@@ -28,15 +28,16 @@ export const DATA = {
     "Flask",
     "Postgres",
     "Google Cloud",
-    "Azure",
+    "AWS",
     "MongoDB",
     "SQL",
     "Docker",
     "CI/CD",
+    "Github Actions",
+    "jenkins",
     "TailwindCSS",
     "Bootstrap",
     ".Net",
-    "Laravel",
     "C/C++",
   ],
   navbar: [
@@ -82,6 +83,18 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "Fiverr",
+      href: "https://www.fiverr.com/muneebsurrehman",
+      badges: [],
+      location: "Remote",
+      title: "Software Developer",
+      logoUrl: "/fiverr.png",
+      start: "November 2024",
+      end: "Current",
+      description:
+        "Offering full-stack app and web development services on Fiverr. Achieved Level 1 Seller status by successfully delivering 20+ projects on time to international clients.",
+    },
     {
       company: "FAST NUCES",
       href: "http://isb.nu.edu.pk/",
@@ -153,77 +166,132 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "FAST NUCES ISB(Website)",
-      href: "",
-      dates: "May 2024 - current",
+      title: "RethinkVC(A new way of imagining version control)",
+      href: "https://github.com/SpunkyAmigo/rethink-vc",
+      dates: "August 2024 - may 2025",
       active: true,
-      description:
-        "Developing a comprehensive website for the [FAST National University Islamabad](https://www.nu.edu.pk/), enhancing online presence and accessibility. The website features a responsive design, detailed information about academic programs, faculty, and facilities, as well as an events calendar, news section e.t.c",
+      description: "Developed a git integrated tool for software developers and writers to manage their documents in a real time environment achieving a 500ms response time for live edits.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "Oracle db",
-        "TailwindCSS",
-        "NEXT UI",
-        "Figma"
-
+        "Nextjs",
+        "Nodejs",
+        "Yjs",
+        "Supabase",
+        "Docker",
+        "git",
+        "Socket.io",
       ],
       links: [
         {
-          type: "Currently Working...",
-          href: "mailto:muneebsurrehman@gmail.com",
-          icon: <Icons.email className="size-3" />,
+          type: "Github",
+          href: "https://github.com/SpunkyAmigo/rethink-vc",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
       video:
         "",
     },
+    {
+      title: "Veterinary Doctor Booking Platform",
+      href: "https://telavets.com/",
+      dates: "February 2025 - April 2025",
+      active: true,
+      description: "[Telavets](https://telavets.com/) – Client facing platform with 5000+ monthly visitors, enabling vet booking via round-robin scheduling for fair appointment distribution. [Televet Express](https://televetexpress.com/) – Vet management dashboard used by 10+ veterinarians for handling appointments booked on telavet, fax prescriptions, and patient data.",
+      technologies: [
+        "Nextjs",
+        "reactjs",
+        "Nodejs",
+        "Express",
+        "firebase",
+        "calendly/zoom API",
+        "make.com",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://telavets.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "",
+    },
+    {
+      title: "VibeShare – Social Club & Events App (iOS – In Review)",
+      href: "https://drive.google.com/drive/folders/1pwq6fIFwqEgZtSuWSqExO64-pgQcpXgG?usp=sharing",
+      dates: "February 2025 - April 2025",
+      active: true,
+      description: "Designed and developed a social networking app that enables users to create clubs and host events based on shared interests. Implemented key features including real-time chat, club and event management, push notifications, and multi-platform authentication (Google, Apple, Phone).",
+      technologies: [
+        "React native",
+        "Node js",
+        "Firebase",
+        "Stripe"
+      ],
+      links: [
+        {
+          type: ".ipa file",
+          href: "https://drive.google.com/drive/folders/1pwq6fIFwqEgZtSuWSqExO64-pgQcpXgG?usp=sharing",
+          icon: <Icons.googleDrive className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "",
+    },
+
+    {
+      title: "TourMate AI Travel Planner App",
+      href: "https://drive.google.com/drive/folders/11W9Axc905maxN_WYPEvtxHHlAnIQRQu6?usp=sharing",
+      dates: "",
+      active: true,
+      description: "Built a personalized trip planner integrating Google Cloud APIs and Gemini LLM to recommend dynamic routes and destinations. Achieved user-specific travel plans in under 5 seconds",
+      technologies: [
+        "React native",
+        "Firebase",
+        "Gemini API",
+        "Google Cloud"
+      ],
+      links: [
+        {
+          type: ".apk file",
+          href: "https://drive.google.com/drive/folders/11W9Axc905maxN_WYPEvtxHHlAnIQRQu6?usp=sharing",
+          icon: <Icons.googleDrive className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "",
+    },
+
     {
       title: "Test Executor Application",
-      href: "",
-      dates: "May 2024 - current",
+      href: "#",
+      dates: "May 2024 - August 2024",
       active: true,
-      description:
-        "Working on a test executor application for the  [FAST National University Islamabad](https://www.nu.edu.pk/), specifically for MCQs-based admission tests. This application automates the evaluation of multiple-choice questions during university admissions, ensuring efficient and accurate grading. Additionally, it features face detection to verify the identity of test-takers, enhancing the security and integrity of the examination process.",
+      description: "Worked on a test executor application for FAST NUCES, specifically for MCQs-based admission tests, facilitating online exams for over 2500+ candidates.",
       technologies: [
-        "React js",
-        "Node js",
-        "Express",
-        "MYSQL",
-        "TailwindCSS",
-        "Material UI",
-        "Prisma"
+        "Reactjs",
+        "Nodejs",
+        "MySQL"
       ],
-      links: [
-        {
-          type: "Currently Working...",
-          href: "mailto:muneebsurrehman@gmail.com",
-          icon: <Icons.email className="size-3" />,
-        },
-      ],
+      links: [],
       image: "",
-      video:
-        "",
+      video: "",
     },
-
     {
-      title: "Pak Level",
+      title: "Paklevel.com",
       href: "https://www.paklevel.com/",
-      dates: "Dec 2023 - current",
+      dates: "December 2023 - March 2024",
       active: true,
-      description:
-        "Topical and yearly past papers of more than 100 subjects related to the Cambridge Assessment International Examination.",
+      description: "Topical and yearly past papers on more than 40 subjects related to the Cambridge International Examination.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "MongoDb",
-        "Mongoose",
-        "TailwindCSS",
-        "python",
-        "beautifulsoup",
-        "Shadcn UI",
-
+        "Nextjs",
+        "MongoDB",
+        "Python",
+        "BeautifulSoup",
+        "Llama3"
       ],
       links: [
         {
@@ -233,177 +301,10 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "",
-    },
-    {
-      title: "Automated Glaucoma Detection",
-      href: "https://github.com/MuneebsUrR/Automated-Glaucoma-Detector",
-      dates: "Feb 2024 - Feb 2024",
-      active: true,
-      description:
-        "Glaucoma is a serious eye condition that can lead to blindness if not detected and treated early. Our project aims to develop an automated glaucoma detection system using Convolutional Neural Networks (CNNs), a type of deep learning algorithm.",
-      technologies: [
-        "Python",
-        "scikit-learn",
-        "OpenCV",
-        "CNN",
-        "Deep Learning",
-        "Image Processing",
-
-      ],
-      links: [
-        {
-          type: "Github",
-          href: "https://github.com/MuneebsUrR/Automated-Glaucoma-Detector",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "",
-    },
-    {
-      title: "Job Mingle",
-      href: "https://job-mingle-client.vercel.app/",
-      dates: "Nov 2023 - Dec 2023",
-      active: true,
-      description:
-        "Job Mingle is a platform where you can find jobs aggregated from sources like LinkedIn, Indeed, Glassdoor, etc. Say goodbye to tedious website searches; just explore Job Mingle.",
-      technologies: [
-        "React js",
-        "Node js",
-        "JWT",
-        "Express",
-        "MongoDB",
-        "Bootstrap",
-        "Yup/Formik",
-
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://job-mingle-client.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "",
-    },
-    {
-      title: "Timetable scheduling problem",
-      href: "https://github.com/MuneebsUrR/Timetable-scheduling-Problem",
-      dates: "Feb 2024 - Feb 2024",
-      active: true,
-      description:
-        "Timetable scheduling problem in python with the help of genetic algorithms. The problem is to schedule a set of lectures in such a way that there are no conflicts between the lectures.",
-      technologies: [
-        "Python",
-        "Genetic Algorithms",
-
-        "Data Structures",
-        "Algorithms",
-
-        'Artificial Intelligence',
-
-      ],
-      links: [
-        {
-          type: "Github",
-          href: "https://github.com/MuneebsUrR/Timetable-scheduling-Problem",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "",
-    },
-    {
-      title: "Societas",
-      href: "https://github.com/MuneebsUrR/sociteas",
-      dates: "Jan 2024 - Feb 2024",
-      active: true,
-      description:
-        "As a team lead, I spearheaded the development of a University Society Management System using .NET. This comprehensive platform streamlines the administration of university societies by automating membership management, event planning, and resource allocation. The system enhances communication between society members and administrators, providing a user-friendly interface for efficient coordination and engagement",
-      technologies: [
-        "HTML",
-        "CSS",
-        ".NET",
-        "C#",
-        "MVC",
-        "Azure",
-        "My SQL",
-
-      ],
-      links: [
-        {
-          type: "Github",
-          href: "https://github.com/MuneebsUrR/sociteas",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "",
+      video: "",
     },
 
-    {
-      title: "Text Guru",
-      href: "https://text-guru.netlify.app/",
-      dates: "August 2023 - August 2023",
-      active: true,
-      description:
-        "Text Guru is a powerful React-based web app that revolutionizes text processing. Paraphrase AI-generated content into human-like text, ensuring it's plagiarism-free. Simplify text manipulation with a range of utility features",
-      technologies: [
-        "React js",
-        "CSS",
-        "Bootstrap",
-        "Javascript",
-        "RapidAPI",
-        "Netlify",
 
-
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://text-guru.netlify.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "",
-    },
-    {
-      title: "NewsLer",
-      href: "https://github.com/MuneebsUrR/Newsler",
-      dates: "August 2023 - August 2023",
-      active: true,
-      description:
-        "Discover the latest in technology, business, entertainment, health, sports, and general news all in one place with Newsler - your go-to news app. Stay informed and up-to-date with a wide range of news categories, all conveniently available for free. Download now and never miss a headline that matters.",
-      technologies: [
-        "React js",
-        "React-Router",
-        "CSS",
-        "Bootstrap",
-        "Javascript",
-        "News API",
-        "Vercel",
-      ],
-      links: [
-        {
-          type: "Github",
-          href: "https://github.com/MuneebsUrR/Newsler",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "",
-    },
-    
 
   ],
   certificates: [
