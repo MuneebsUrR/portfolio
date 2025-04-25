@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Developer | DevOps Engineer. I love building things and helping people.",
   summary:
-    "I am a final-year student at [FAST National University](https://www.nu.edu.pk/) with two years of experience in building Apps and Websites. Currently, I am also expanding my skills by learning AI and machine learning. My academic journey has equipped me with a strong foundation in both frontend and backend development, and I am excited to apply my skills to real-world projects and contribute to the tech community.",
+    "I am a final-year student at [FAST National University](https://www.nu.edu.pk/) with two years of experience in building Apps and Web Applications. Currently, I am also expanding my skills like AI automation, DevOps, Cloud Engineering. My academic journey has equipped me with a strong foundation in both frontend and backend development, and I am excited to apply my skills to real-world projects and contribute to the tech community.",
   avatarUrl: "/mainpic.jpeg",
   skills: [
     "React",
