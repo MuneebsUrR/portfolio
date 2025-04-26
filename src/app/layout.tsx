@@ -107,8 +107,8 @@ export default function RootLayout({
             <Navbar />
           </TooltipProvider>
         </ThemeProvider>
-      </body>
       <Analytics/>
+      </body>
     </html>
   );
 }
